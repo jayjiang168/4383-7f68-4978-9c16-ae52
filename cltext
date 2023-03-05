@@ -47,6 +47,26 @@ proxy-groups:
       - 法国(冰河圈子分享)-8
       - 法国(冰河圈子分享)-9
 rules:
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
+ - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
+ - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
@@ -99,43 +119,6 @@ rules:
  - DOMAIN,app.adjust.com,DIRECT
  - DOMAIN,bdtj.tagtic.cn,DIRECT
  - DOMAIN,rewards.hypixel.net,DIRECT
- - DOMAIN-SUFFIX,265.com,DIRECT
- - DOMAIN-SUFFIX,2mdn.net,DIRECT
- - DOMAIN-SUFFIX,alt1-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt2-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt3-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt4-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt5-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt6-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt7-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt8-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,app-measurement.com,DIRECT
- - DOMAIN-SUFFIX,c.android.clients.google.com,DIRECT
- - DOMAIN-SUFFIX,cache.pack.google.com,DIRECT
- - DOMAIN-SUFFIX,clickserve.dartsearch.net,DIRECT
- - DOMAIN-SUFFIX,clientservices.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,crl.pki.goog,DIRECT
- - DOMAIN-SUFFIX,dl.google.com,DIRECT
- - DOMAIN-SUFFIX,dl.l.google.com,DIRECT
- - DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,googletagmanager.com,DIRECT
- - DOMAIN-SUFFIX,googletagservices.com,DIRECT
- - DOMAIN-SUFFIX,gtm.oasisfeng.com,DIRECT
- - DOMAIN-SUFFIX,imasdk.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,ocsp.pki.goog,DIRECT
- - DOMAIN-SUFFIX,recaptcha.net,DIRECT
- - DOMAIN-SUFFIX,safebrowsing-cache.google.com,DIRECT
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,settings.crashlytics.com,DIRECT
- - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,DIRECT
- - DOMAIN-SUFFIX,toolbarqueries.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.l.google.com,DIRECT
- - DOMAIN-SUFFIX,update.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,DIRECT
- - DOMAIN-SUFFIX,www.gstatic.com,DIRECT
  - DOMAIN-SUFFIX,13th.tech,DIRECT
  - DOMAIN-SUFFIX,423down.com,DIRECT
  - DOMAIN-SUFFIX,bokecc.com,DIRECT
