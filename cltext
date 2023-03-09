@@ -1,27 +1,112 @@
 port: 7890
 socks-port: 7891
-Mixed-Port: 7788
-redir-port: 7892
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-
+  - {name: 巴西2 | 0.3x, server: frarmbc.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxrmiao, headers: {Host: frarmbc.76898102.xyz}}, udp: true}
+  - {name: 加拿大 | 1x, server: caaubefw.76898102.xyz, port: 2095, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /flkwdfadss, headers: {Host: caaubefw.76898102.xyz}}, udp: true}
+  - {name: 巴西6 | 0.3x, server: baxwarfrey.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxtkmiao, headers: {Host: baxwarfrey.76898102.xyz}}, udp: true}
+  - {name: 美国西部圣何塞5 |80端口|1x, server: ustgabbagc.114514782.xyz, port: 80, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tfakkcbyz, headers: {Host: ustgabbagc.114514782.xyz}}, udp: true}
+  - {name: 巴西8 | 0.3x, server: bawfewbwagr.76898102.xyz, port: 2086, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mawduvgddg, headers: {Host: bawfewbwagr.76898102.xyz}}, udp: true}
+  - {name: 日本C | Anti-DDos |0.7x, server: dbamwv.76898102.xyz, port: 2082, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tadvchk, headers: {Host: dbamwv.76898102.xyz}}, udp: true}
+  - {name: 英国2 | 0.5x, server: gbawbc.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /miao, headers: {Host: gbawbc.76898102.xyz}}, udp: true}
+  - {name: 美国西部圣何塞3 | 1x, server: armus.114514782.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /miao, headers: {Host: armus.114514782.xyz}}, udp: true}
+  - {name: 英国3 | 0.5x, server: ldauvycer.76898102.xyz, port: 2086, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opengtc, headers: {Host: ldauvycer.76898102.xyz}}, udp: true}
+  - {name: 日本A | 1x, server: jpwarpdwnidb.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vuesshtgk, headers: {Host: jpwarpdwnidb.76898102.xyz}}, udp: true}
+  - {name: 德国Hz下载专用 | 0.001x, server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}, udp: true}
+  - {name: 智利圣地亚哥2 | 0.3x, server: bxptyarm.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxpty, headers: {Host: bxptyarm.76898102.xyz}}, udp: true}
+  - {name: 澳大利亚1 | 0.5x, server: xnarma.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xneausfb, headers: {Host: xnarma.76898102.xyz}}, udp: true}
+  - {name: 日本1 | 1x, server: jprtttlcs.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /miao, headers: {Host: jprtttlcs.76898102.xyz}}, udp: true}
+  - {name: 智利圣地亚哥1 | 0.3x, server: fldsubgigtujuy.76898102.xyz, port: 2095, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /miaoGK, headers: {Host: fldsubgigtujuy.76898102.xyz}}, udp: true}
+  - {name: 美国弗吉尼亚博伊顿, server: fullaccesstoamericannetsubnode3.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fullaccesstoamericannetsubnode3.azurewebsites.net, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstoamericannetsubnode3.azurewebsites.net}}, udp: true}
+  - {name: 澳大利亚2 | 0.5x, server: xnarmb.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nfdguiw, headers: {Host: xnarmb.76898102.xyz}}, udp: true}
+  - {name: 巴西5 | 0.3x, server: baxwabe.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aubverfsg, headers: {Host: baxwabe.76898102.xyz}}, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 124.222.189.225, port: 80, type: vmess, uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 巴西4 | 0.3x, server: baxamdyfa.76898102.xyz, port: 2052, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxzmiao, headers: {Host: baxamdyfa.76898102.xyz}}, udp: true}
+  - {name: 新加坡2 | 1x, server: amstdtre.76898102.xyz, port: 2095, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /adwrfeyiyuisfesf, headers: {Host: amstdtre.76898102.xyz}}, udp: true}
+  - {name: 英国英格兰伦敦, server: fullaccesstobritishnet.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fullaccesstobritishnet.azurewebsites.net, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstobritishnet.azurewebsites.net}}, udp: true}
+  - {name: 加拿大安大略多伦多, server: fullaccesstocanadiannet.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fullaccesstocanadiannet.azurewebsites.net, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstocanadiannet.azurewebsites.net}}, udp: true}
+  - {name: 英国威尔士加的夫, server: fullaccesstobritishnetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fullaccesstobritishnetsubnode1.azurewebsites.net, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstobritishnetsubnode1.azurewebsites.net}}, udp: true}
+  - {name: 美国西部圣何塞4 | 1x, server: audbhfyjdw.114514782.xyz, port: 2086, type: vmess, uuid: 9e912d9d-2bd0-389c-8253-d80401a8db1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bgpshsus, headers: {Host: audbhfyjdw.114514782.xyz}}, udp: true}
+  - {name: "[CF] VC_CA1 - 4E7C", server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 59fa848b-477f-4a98-a105-8240c18ff98b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4e7cc378.ikunxiao.top}}, udp: true}
+  - {name: "[CF] VC_EU1_LON - 8ED8", server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 59fa848b-477f-4a98-a105-8240c18ff98b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 8ed8bd9b.ikunxiao.top}}, udp: true}
+  - {name: "[CF] HAX_US - 4BB4", server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 59fa848b-477f-4a98-a105-8240c18ff98b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.ikunxiao.top}}, udp: true}
+  - {name: TG@hkaa0|中国_52, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      
+      - 巴西2 | 0.3x
+      - 加拿大 | 1x
+      - 巴西6 | 0.3x
+      - 美国西部圣何塞5 |80端口|1x
+      - 巴西8 | 0.3x
+      - 日本C | Anti-DDos |0.7x
+      - 英国2 | 0.5x
+      - 美国西部圣何塞3 | 1x
+      - 英国3 | 0.5x
+      - 日本A | 1x
+      - 德国Hz下载专用 | 0.001x
+      - 智利圣地亚哥2 | 0.3x
+      - 澳大利亚1 | 0.5x
+      - 日本1 | 1x
+      - 智利圣地亚哥1 | 0.3x
+      - 美国弗吉尼亚博伊顿
+      - 澳大利亚2 | 0.5x
+      - 巴西5 | 0.3x
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - 巴西4 | 0.3x
+      - 新加坡2 | 1x
+      - 英国英格兰伦敦
+      - 加拿大安大略多伦多
+      - 英国威尔士加的夫
+      - 美国西部圣何塞4 | 1x
+      - "[CF] VC_CA1 - 4E7C"
+      - "[CF] VC_EU1_LON - 8ED8"
+      - "[CF] HAX_US - 4BB4"
+      - TG@hkaa0|中国_52
+      - _CN_中国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-
+      - 巴西2 | 0.3x
+      - 加拿大 | 1x
+      - 巴西6 | 0.3x
+      - 美国西部圣何塞5 |80端口|1x
+      - 巴西8 | 0.3x
+      - 日本C | Anti-DDos |0.7x
+      - 英国2 | 0.5x
+      - 美国西部圣何塞3 | 1x
+      - 英国3 | 0.5x
+      - 日本A | 1x
+      - 德国Hz下载专用 | 0.001x
+      - 智利圣地亚哥2 | 0.3x
+      - 澳大利亚1 | 0.5x
+      - 日本1 | 1x
+      - 智利圣地亚哥1 | 0.3x
+      - 美国弗吉尼亚博伊顿
+      - 澳大利亚2 | 0.5x
+      - 巴西5 | 0.3x
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - 巴西4 | 0.3x
+      - 新加坡2 | 1x
+      - 英国英格兰伦敦
+      - 加拿大安大略多伦多
+      - 英国威尔士加的夫
+      - 美国西部圣何塞4 | 1x
+      - "[CF] VC_CA1 - 4E7C"
+      - "[CF] VC_EU1_LON - 8ED8"
+      - "[CF] HAX_US - 4BB4"
+      - TG@hkaa0|中国_52
+      - _CN_中国
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
