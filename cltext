@@ -5,78 +5,279 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 台湾01, server: cm01.wappapinkush.xyz, port: 4301, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 台湾02, server: cm01.wappapinkush.xyz, port: 4302, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 台湾03, server: cm01.wappapinkush.xyz, port: 4303, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 台湾04, server: cm01.wappapinkush.xyz, port: 4304, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 台湾05, server: cm01.wappapinkush.xyz, port: 4305, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 新加坡01, server: cm01.wappapinkush.xyz, port: 3601, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 新加坡02, server: cm01.wappapinkush.xyz, port: 3602, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 新加坡03, server: cm01.wappapinkush.xyz, port: 3603, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 新加坡04, server: cm01.wappapinkush.xyz, port: 3604, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 新加坡05, server: cm01.wappapinkush.xyz, port: 3605, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 日本01, server: cm01.wappapinkush.xyz, port: 2301, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 日本02, server: cm01.wappapinkush.xyz, port: 2302, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 日本03, server: cm01.wappapinkush.xyz, port: 2303, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 日本04, server: cm01.wappapinkush.xyz, port: 2304, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 日本05, server: cm01.wappapinkush.xyz, port: 2305, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 美国01, server: cm01.wappapinkush.xyz, port: 6301, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 美国02, server: cm01.wappapinkush.xyz, port: 6302, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 美国03, server: cm01.wappapinkush.xyz, port: 6303, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 美国04, server: cm01.wappapinkush.xyz, port: 6304, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 美国05, server: cm01.wappapinkush.xyz, port: 6305, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港01, server: cm02.wappapinkush.xyz, port: 1301, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港02, server: cm02.wappapinkush.xyz, port: 1302, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港03, server: cm02.wappapinkush.xyz, port: 1303, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港04, server: cm02.wappapinkush.xyz, port: 1304, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港05, server: cm02.wappapinkush.xyz, port: 1305, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港06, server: cm02.wappapinkush.xyz, port: 1306, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港07, server: cm02.wappapinkush.xyz, port: 1307, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港08, server: cm02.wappapinkush.xyz, port: 1308, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港09, server: cm02.wappapinkush.xyz, port: 1309, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港10, server: cm02.wappapinkush.xyz, port: 1310, type: ssr, cipher: chacha20-ietf, password: jjx83UjLB5hKcC3p, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 19304:oOvrrTvEYi9cIYDS, obfs-param: 2792819304.microsoft.com, udp: true}
+  - {name: 香港02 2, server: cn01.efan.men, port: 8752, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港03 2, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港04 2, server: cn01.efan.men, port: 8754, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港05 2, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港06 2, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港07 2, server: cn01.efan.men, port: 8757, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港08 2, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港09 2, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港10 2, server: cn01.efan.men, port: 8760, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港11, server: cn01.efan.men, port: 8711, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港12, server: cn01.efan.men, port: 8712, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港13, server: cn01.efan.men, port: 8713, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港14, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港15, server: cn01.efan.men, port: 8715, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港16, server: cn01.efan.men, port: 8716, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港17, server: cn01.efan.men, port: 8717, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港18, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港19, server: cn01.efan.men, port: 8719, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 香港20, server: cn01.efan.men, port: 8720, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本01 2, server: cn01.efan.men, port: 8761, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本02 2, server: cn01.efan.men, port: 8762, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本03 2, server: cn01.efan.men, port: 8763, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本04 2, server: cn01.efan.men, port: 8764, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本05 2, server: cn01.efan.men, port: 8765, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本06, server: cn01.efan.men, port: 8766, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本07, server: cn01.efan.men, port: 8767, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本08, server: cn01.efan.men, port: 8768, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本09, server: cn01.efan.men, port: 8769, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 日本10, server: cn01.efan.men, port: 8770, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国01 2, server: cn01.efan.men, port: 8771, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国02 2, server: cn01.efan.men, port: 8772, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国03 2, server: cn01.efan.men, port: 8773, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国04 2, server: cn01.efan.men, port: 8774, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国05 2, server: cn01.efan.men, port: 8775, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国06, server: cn01.efan.men, port: 8776, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国07, server: cn01.efan.men, port: 8777, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国08, server: cn01.efan.men, port: 8778, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国09, server: cn01.efan.men, port: 8779, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 美国10, server: cn01.efan.men, port: 8791, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡01 2, server: cn01.efan.men, port: 8721, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡02 2, server: cn01.efan.men, port: 8722, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡03 2, server: cn01.efan.men, port: 8723, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡04 2, server: cn01.efan.men, port: 8724, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡05 2, server: cn01.efan.men, port: 8725, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡06, server: cn01.efan.men, port: 8726, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡07, server: cn01.efan.men, port: 8727, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡08, server: cn01.efan.men, port: 8728, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡09, server: cn01.efan.men, port: 8729, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 新加坡10, server: cn01.efan.men, port: 8730, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 台湾（每小时自动切换ip）, server: cn01.efan.men, port: 8781, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 英国01, server: cn01.efan.men, port: 8786, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 英国02, server: cn01.efan.men, port: 8787, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 英国03, server: cn01.efan.men, port: 8788, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 英国04, server: cn01.efan.men, port: 8789, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 英国05, server: cn01.efan.men, port: 8790, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 俄罗斯, server: cn01.efan.men, port: 8792, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
+  - {name: 阿根廷, server: cn01.efan.men, port: 8795, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 24093-v336uwbJH6.download.microsoft.com, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 巴西2 | 0.3x
-      - 加拿大 | 1x
-      - 巴西6 | 0.3x
-      - 美国西部圣何塞5 |80端口|1x
-      - 巴西8 | 0.3x
-      - 日本C | Anti-DDos |0.7x
-      - 英国2 | 0.5x
-      - 美国西部圣何塞3 | 1x
-      - 英国3 | 0.5x
-      - 日本A | 1x
-      - 德国Hz下载专用 | 0.001x
-      - 智利圣地亚哥2 | 0.3x
-      - 澳大利亚1 | 0.5x
-      - 日本1 | 1x
-      - 智利圣地亚哥1 | 0.3x
-      - 美国弗吉尼亚博伊顿
-      - 澳大利亚2 | 0.5x
-      - 巴西5 | 0.3x
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - 巴西4 | 0.3x
-      - 新加坡2 | 1x
-      - 英国英格兰伦敦
-      - 加拿大安大略多伦多
-      - 英国威尔士加的夫
-      - 美国西部圣何塞4 | 1x
-      - "[CF] VC_CA1 - 4E7C"
-      - "[CF] VC_EU1_LON - 8ED8"
-      - "[CF] HAX_US - 4BB4"
-      - TG@hkaa0|中国_52
-      - _CN_中国
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 台湾05
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港02 2
+      - 香港03 2
+      - 香港04 2
+      - 香港05 2
+      - 香港06 2
+      - 香港07 2
+      - 香港08 2
+      - 香港09 2
+      - 香港10 2
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 香港17
+      - 香港18
+      - 香港19
+      - 香港20
+      - 日本01 2
+      - 日本02 2
+      - 日本03 2
+      - 日本04 2
+      - 日本05 2
+      - 日本06
+      - 日本07
+      - 日本08
+      - 日本09
+      - 日本10
+      - 美国01 2
+      - 美国02 2
+      - 美国03 2
+      - 美国04 2
+      - 美国05 2
+      - 美国06
+      - 美国07
+      - 美国08
+      - 美国09
+      - 美国10
+      - 新加坡01 2
+      - 新加坡02 2
+      - 新加坡03 2
+      - 新加坡04 2
+      - 新加坡05 2
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 新加坡09
+      - 新加坡10
+      - 台湾（每小时自动切换ip）
+      - 英国01
+      - 英国02
+      - 英国03
+      - 英国04
+      - 英国05
+      - 俄罗斯
+      - 阿根廷
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 巴西2 | 0.3x
-      - 加拿大 | 1x
-      - 巴西6 | 0.3x
-      - 美国西部圣何塞5 |80端口|1x
-      - 巴西8 | 0.3x
-      - 日本C | Anti-DDos |0.7x
-      - 英国2 | 0.5x
-      - 美国西部圣何塞3 | 1x
-      - 英国3 | 0.5x
-      - 日本A | 1x
-      - 德国Hz下载专用 | 0.001x
-      - 智利圣地亚哥2 | 0.3x
-      - 澳大利亚1 | 0.5x
-      - 日本1 | 1x
-      - 智利圣地亚哥1 | 0.3x
-      - 美国弗吉尼亚博伊顿
-      - 澳大利亚2 | 0.5x
-      - 巴西5 | 0.3x
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - 巴西4 | 0.3x
-      - 新加坡2 | 1x
-      - 英国英格兰伦敦
-      - 加拿大安大略多伦多
-      - 英国威尔士加的夫
-      - 美国西部圣何塞4 | 1x
-      - "[CF] VC_CA1 - 4E7C"
-      - "[CF] VC_EU1_LON - 8ED8"
-      - "[CF] HAX_US - 4BB4"
-      - TG@hkaa0|中国_52
-      - _CN_中国
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 台湾05
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 香港10
+      - 香港02 2
+      - 香港03 2
+      - 香港04 2
+      - 香港05 2
+      - 香港06 2
+      - 香港07 2
+      - 香港08 2
+      - 香港09 2
+      - 香港10 2
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 香港17
+      - 香港18
+      - 香港19
+      - 香港20
+      - 日本01 2
+      - 日本02 2
+      - 日本03 2
+      - 日本04 2
+      - 日本05 2
+      - 日本06
+      - 日本07
+      - 日本08
+      - 日本09
+      - 日本10
+      - 美国01 2
+      - 美国02 2
+      - 美国03 2
+      - 美国04 2
+      - 美国05 2
+      - 美国06
+      - 美国07
+      - 美国08
+      - 美国09
+      - 美国10
+      - 新加坡01 2
+      - 新加坡02 2
+      - 新加坡03 2
+      - 新加坡04 2
+      - 新加坡05 2
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 新加坡09
+      - 新加坡10
+      - 台湾（每小时自动切换ip）
+      - 英国01
+      - 英国02
+      - 英国03
+      - 英国04
+      - 英国05
+      - 俄罗斯
+      - 阿根廷
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
@@ -104,6 +305,7 @@ rules:
  - DOMAIN-SUFFIX,lan,DIRECT
  - DOMAIN-SUFFIX,local,DIRECT
  - DOMAIN-SUFFIX,localhost,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
@@ -118,6 +320,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,setmeup.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
  - DOMAIN-SUFFIX,hiwifi.com,DIRECT
  - DOMAIN-SUFFIX,leike.cc,DIRECT
  - DOMAIN-SUFFIX,miwifi.com,DIRECT
@@ -130,19 +333,16 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
  - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
  - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
  - DOMAIN-SUFFIX,dizhensubao.getui.com,DIRECT
  - DOMAIN,dl.google.com,DIRECT
  - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,DIRECT
  - DOMAIN,origin-a.akamaihd.net,DIRECT
- - DOMAIN,xivanalysis.com,DIRECT
- - DOMAIN,picanalysis.vivo.com.cn,DIRECT
- - DOMAIN,picanalysis-auth.vivo.com.cn,DIRECT
  - DOMAIN,fairplay.l.qq.com,DIRECT
  - DOMAIN,livew.l.qq.com,DIRECT
  - DOMAIN,vd.l.qq.com,DIRECT
- - DOMAIN,analytics.strava.com,DIRECT
  - DOMAIN,errlog.umeng.com,DIRECT
  - DOMAIN,msg.umeng.com,DIRECT
  - DOMAIN,msg.umengcloud.com,DIRECT
@@ -169,7 +369,6 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,DIRECT
  - DOMAIN-SUFFIX,xn--55qx5d,DIRECT
  - DOMAIN-SUFFIX,xn--io0a7i,DIRECT
- - DOMAIN-KEYWORD,-cn,DIRECT
  - DOMAIN-KEYWORD,360buy,DIRECT
  - DOMAIN-KEYWORD,alicdn,DIRECT
  - DOMAIN-KEYWORD,alimama,DIRECT
@@ -327,6 +526,7 @@ rules:
  - DOMAIN-SUFFIX,dbankcdn.com,DIRECT
  - DOMAIN-SUFFIX,hc-cdn.com,DIRECT
  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+ - DOMAIN-SUFFIX,hihonor.com,DIRECT
  - DOMAIN-SUFFIX,huawei.com,DIRECT
  - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
  - DOMAIN-SUFFIX,huaweishop.net,DIRECT
@@ -519,10 +719,10 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,DIRECT
  - DOMAIN-SUFFIX,springsunday.net,DIRECT
  - DOMAIN-SUFFIX,tjupt.org,DIRECT
+ - DOMAIN-SUFFIX,tju.pt,DIRECT
  - DOMAIN-SUFFIX,totheglory.im,DIRECT
  - DOMAIN-SUFFIX,trontv.com,DIRECT
  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
- - IP-CIDR,109.239.140.0/24,DIRECT,no-resolve
  - IP-CIDR,139.220.243.27/32,DIRECT,no-resolve
  - IP-CIDR,172.16.102.56/32,DIRECT,no-resolve
  - IP-CIDR,185.188.32.1/28,DIRECT,no-resolve
@@ -678,7 +878,9 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,DIRECT
  - DOMAIN-SUFFIX,nuomi.com,DIRECT
  - DOMAIN-SUFFIX,onedns.net,DIRECT
+ - DOMAIN-SUFFIX,oneplus.com,DIRECT
  - DOMAIN-SUFFIX,onlinedown.net,DIRECT
+ - DOMAIN-SUFFIX,oppo.com,DIRECT
  - DOMAIN-SUFFIX,oracle.com,DIRECT
  - DOMAIN-SUFFIX,oschina.net,DIRECT
  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
@@ -700,6 +902,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,DIRECT
  - DOMAIN-SUFFIX,qunar.com,DIRECT
  - DOMAIN-SUFFIX,qunarzz.com,DIRECT
+ - DOMAIN-SUFFIX,realme.com,DIRECT
  - DOMAIN-SUFFIX,repaik.com,DIRECT
  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
  - DOMAIN-SUFFIX,runoob.com,DIRECT
@@ -733,6 +936,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,DIRECT
  - DOMAIN-SUFFIX,uxengine.net,DIRECT
  - DOMAIN-SUFFIX,videocc.net,DIRECT
+ - DOMAIN-SUFFIX,vivo.com,DIRECT
  - DOMAIN-SUFFIX,wandoujia.com,DIRECT
  - DOMAIN-SUFFIX,weather.com,DIRECT
  - DOMAIN-SUFFIX,weico.cc,DIRECT
@@ -818,7 +1022,6 @@ rules:
  - DOMAIN-KEYWORD,adsserving,REJECT
  - DOMAIN-KEYWORD,adsystem,REJECT
  - DOMAIN-KEYWORD,adwords,REJECT
- - DOMAIN-KEYWORD,analysis,REJECT
  - DOMAIN-KEYWORD,applovin,REJECT
  - DOMAIN-KEYWORD,appsflyer,REJECT
  - DOMAIN-KEYWORD,domob,REJECT
@@ -832,7 +1035,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,REJECT
  - DOMAIN-KEYWORD,socdm,REJECT
  - DOMAIN-KEYWORD,supersonicads,REJECT
- - DOMAIN-KEYWORD,usage,REJECT
  - DOMAIN-KEYWORD,wlmonitor,REJECT
  - DOMAIN-KEYWORD,zjtoolbar,REJECT
  - DOMAIN-SUFFIX,09mk.cn,REJECT
@@ -1566,7 +1768,6 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,REJECT
  - DOMAIN-SUFFIX,baidustatic.com,REJECT
  - DOMAIN-SUFFIX,baidutv.baidu.com,REJECT
- - DOMAIN-SUFFIX,baikebcs.bdimg.com,REJECT
  - DOMAIN-SUFFIX,banlv.baidu.com,REJECT
  - DOMAIN-SUFFIX,bar.baidu.com,REJECT
  - DOMAIN-SUFFIX,bdplus.baidu.com,REJECT
@@ -1924,7 +2125,6 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,union.mi.com,REJECT
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,REJECT
- - DOMAIN-SUFFIX,xmpush.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,ad.api.moji.com,REJECT
  - DOMAIN-SUFFIX,app.moji001.com,REJECT
  - DOMAIN-SUFFIX,cdn.moji002.com,REJECT
@@ -2119,7 +2319,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,REJECT
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,REJECT
  - DOMAIN-SUFFIX,ybp.yahoo.com,REJECT
- - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
  - DOMAIN-SUFFIX,shrek.6.cn,REJECT
  - DOMAIN-SUFFIX,simba.6.cn,REJECT
  - DOMAIN-SUFFIX,union.6.cn,REJECT
