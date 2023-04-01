@@ -1,224 +1,109 @@
 port: 7890
 socks-port: 7891
+Mixed-Port: 7788
+redir-port: 7892
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
- 
+  - {name: 台湾01 - 原生 Exclusive, server: 2212.level1.sdl-sz.com, port: 2085, type: ssr, cipher: aes-256-cfb, password: PF9Cn0gJfHKBknec, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 日本02 - 解锁 Exclusive, server: 2212.level1.sdl-sz.com, port: 5117, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 台湾B - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 2081, type: ssr, cipher: aes-256-cfb, password: QAQQpKtkjL8u, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 台湾D - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 2083, type: ssr, cipher: chacha20-ietf, password: oY8P39A1GFur, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 土耳其A - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 6328, type: ssr, cipher: aes-256-cfb, password: t4n6KpPzaZ1B, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 日本E - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 2504, type: ssr, cipher: aes-256-cfb, password: Z98OudrGXC629, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 比利时A - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 10044, type: ssr, cipher: aes-256-cfb, password: aa2sa2/1a, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 香港D - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 1712, type: ssr, cipher: aes-256-cfb, password: sI9ekIVdZIXK, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 香港H - 原生 Premium, server: 2212.level2.sdl-sz.com, port: 1707, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 俄罗斯I - 原生 Light, server: 2212.level1.sdl-sz.com, port: 1710, type: ssr, cipher: aes-256-cfb, password: lOP38MH6ZokP, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 加拿大I - 标准 Light, server: 2212.level1.sdl-sz.com, port: 6335, type: ssr, cipher: chacha20-ietf, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 台湾I - 原生 Light, server: 2212.level1.sdl-sz.com, port: 2080, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 德国I - 标准 Light, server: 2212.level1.sdl-sz.com, port: 3001, type: ssr, cipher: chacha20-ietf, password: XePf8VAlkzkg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 新加坡I - 解锁 Light, server: 2212.level1.sdl-sz.com, port: 1754, type: ssr, cipher: aes-256-cfb, password: HBHqbm6EPA, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 日本I - 解锁 Light, server: 2212.level1.sdl-sz.com, port: 1753, type: ssr, cipher: aes-256-cfb, password: 6FZVhhAzsE2x, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 日本II - 标准 Light, server: 2212.level1.sdl-sz.com, port: 1750, type: ssr, cipher: rc4-md5, password: lN6jZhAIB, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 法国I - 标准 Light, server: 2212.level1.sdl-sz.com, port: 6324, type: ssr, cipher: aes-256-cfb, password: zHdKkwJP6GNS, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 波兰I - 标准 Light, server: 2212.level1.sdl-sz.com, port: 2206, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 罗马尼亚I - 下载 Light, server: 2212.level1.sdl-sz.com, port: 6334, type: ssr, cipher: chacha20-ietf, password: JJWUVbWzDWW, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 美国I - 解锁 Light, server: 2212.level1.sdl-sz.com, port: 1755, type: ssr, cipher: aes-256-cfb, password: PKWvedVjjS3q, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 美国II - 解锁 Light, server: 2212.level1.sdl-sz.com, port: 6327, type: ssr, cipher: aes-256-cfb, password: HiC7zxygaWDq, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 美国III - 标准 Light, server: 2212.level1.sdl-sz.com, port: 256, type: ssr, cipher: aes-256-cfb, password: N451htPMGW9k, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 英国I - 解锁 Light, server: 2212.level1.sdl-sz.com, port: 2579, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 香港I - 原生 Light, server: 2212.level1.sdl-sz.com, port: 1703, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 香港II - 标准 Light, server: 2212.level1.sdl-sz.com, port: 1700, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+  - {name: 香港III - 标准 Light, server: 2212.level1.sdl-sz.com, port: 1705, type: ssr, cipher: aes-256-cfb, password: 3ke1YNBPgvh3, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 台湾05
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
-      - 新加坡04
-      - 新加坡05
-      - 日本01
-      - 日本02
-      - 日本03
-      - 日本04
-      - 日本05
-      - 美国01
-      - 美国02
-      - 美国03
-      - 美国04
-      - 美国05
-      - 香港01
-      - 香港02
-      - 香港03
-      - 香港04
-      - 香港05
-      - 香港06
-      - 香港07
-      - 香港08
-      - 香港09
-      - 香港10
-      - 香港02 2
-      - 香港03 2
-      - 香港04 2
-      - 香港05 2
-      - 香港06 2
-      - 香港07 2
-      - 香港08 2
-      - 香港09 2
-      - 香港10 2
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 日本01 2
-      - 日本02 2
-      - 日本03 2
-      - 日本04 2
-      - 日本05 2
-      - 日本06
-      - 日本07
-      - 日本08
-      - 日本09
-      - 日本10
-      - 美国01 2
-      - 美国02 2
-      - 美国03 2
-      - 美国04 2
-      - 美国05 2
-      - 美国06
-      - 美国07
-      - 美国08
-      - 美国09
-      - 美国10
-      - 新加坡01 2
-      - 新加坡02 2
-      - 新加坡03 2
-      - 新加坡04 2
-      - 新加坡05 2
-      - 新加坡06
-      - 新加坡07
-      - 新加坡08
-      - 新加坡09
-      - 新加坡10
-      - 台湾（每小时自动切换ip）
-      - 英国01
-      - 英国02
-      - 英国03
-      - 英国04
-      - 英国05
-      - 俄罗斯
-      - 阿根廷
+      - 台湾01 - 原生 Exclusive
+      - 日本02 - 解锁 Exclusive
+      - 台湾B - 原生 Premium
+      - 台湾D - 原生 Premium
+      - 土耳其A - 原生 Premium
+      - 日本E - 原生 Premium
+      - 比利时A - 原生 Premium
+      - 香港D - 原生 Premium
+      - 香港H - 原生 Premium
+      - 俄罗斯I - 原生 Light
+      - 加拿大I - 标准 Light
+      - 台湾I - 原生 Light
+      - 德国I - 标准 Light
+      - 新加坡I - 解锁 Light
+      - 日本I - 解锁 Light
+      - 日本II - 标准 Light
+      - 法国I - 标准 Light
+      - 波兰I - 标准 Light
+      - 罗马尼亚I - 下载 Light
+      - 美国I - 解锁 Light
+      - 美国II - 解锁 Light
+      - 美国III - 标准 Light
+      - 英国I - 解锁 Light
+      - 香港I - 原生 Light
+      - 香港II - 标准 Light
+      - 香港III - 标准 Light
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 台湾05
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
-      - 新加坡04
-      - 新加坡05
-      - 日本01
-      - 日本02
-      - 日本03
-      - 日本04
-      - 日本05
-      - 美国01
-      - 美国02
-      - 美国03
-      - 美国04
-      - 美国05
-      - 香港01
-      - 香港02
-      - 香港03
-      - 香港04
-      - 香港05
-      - 香港06
-      - 香港07
-      - 香港08
-      - 香港09
-      - 香港10
-      - 香港02 2
-      - 香港03 2
-      - 香港04 2
-      - 香港05 2
-      - 香港06 2
-      - 香港07 2
-      - 香港08 2
-      - 香港09 2
-      - 香港10 2
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - 香港17
-      - 香港18
-      - 香港19
-      - 香港20
-      - 日本01 2
-      - 日本02 2
-      - 日本03 2
-      - 日本04 2
-      - 日本05 2
-      - 日本06
-      - 日本07
-      - 日本08
-      - 日本09
-      - 日本10
-      - 美国01 2
-      - 美国02 2
-      - 美国03 2
-      - 美国04 2
-      - 美国05 2
-      - 美国06
-      - 美国07
-      - 美国08
-      - 美国09
-      - 美国10
-      - 新加坡01 2
-      - 新加坡02 2
-      - 新加坡03 2
-      - 新加坡04 2
-      - 新加坡05 2
-      - 新加坡06
-      - 新加坡07
-      - 新加坡08
-      - 新加坡09
-      - 新加坡10
-      - 台湾（每小时自动切换ip）
-      - 英国01
-      - 英国02
-      - 英国03
-      - 英国04
-      - 英国05
-      - 俄罗斯
-      - 阿根廷
+      - 台湾01 - 原生 Exclusive
+      - 日本02 - 解锁 Exclusive
+      - 台湾B - 原生 Premium
+      - 台湾D - 原生 Premium
+      - 土耳其A - 原生 Premium
+      - 日本E - 原生 Premium
+      - 比利时A - 原生 Premium
+      - 香港D - 原生 Premium
+      - 香港H - 原生 Premium
+      - 俄罗斯I - 原生 Light
+      - 加拿大I - 标准 Light
+      - 台湾I - 原生 Light
+      - 德国I - 标准 Light
+      - 新加坡I - 解锁 Light
+      - 日本I - 解锁 Light
+      - 日本II - 标准 Light
+      - 法国I - 标准 Light
+      - 波兰I - 标准 Light
+      - 罗马尼亚I - 下载 Light
+      - 美国I - 解锁 Light
+      - 美国II - 解锁 Light
+      - 美国III - 标准 Light
+      - 英国I - 解锁 Light
+      - 香港I - 原生 Light
+      - 香港II - 标准 Light
+      - 香港III - 标准 Light
 rules:
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
- - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
- - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
- - IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
- - IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
- - IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
- - IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
- - IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
- - IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
- - IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
- - IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
- - IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
- - IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
- - IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
- - IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
- - IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
- - IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
- - IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
- - IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
- - IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
  - DOMAIN-SUFFIX,lan,DIRECT
  - DOMAIN-SUFFIX,local,DIRECT
  - DOMAIN-SUFFIX,localhost,DIRECT
- - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
@@ -233,7 +118,6 @@ rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,setmeup.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
- - DOMAIN,www.asusrouter.com,DIRECT
  - DOMAIN-SUFFIX,hiwifi.com,DIRECT
  - DOMAIN-SUFFIX,leike.cc,DIRECT
  - DOMAIN-SUFFIX,miwifi.com,DIRECT
@@ -246,16 +130,19 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
  - DOMAIN-SUFFIX,tplogin.cn,DIRECT
- - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
  - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
  - DOMAIN-SUFFIX,dizhensubao.getui.com,DIRECT
  - DOMAIN,dl.google.com,DIRECT
  - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,DIRECT
  - DOMAIN,origin-a.akamaihd.net,DIRECT
+ - DOMAIN,xivanalysis.com,DIRECT
+ - DOMAIN,picanalysis.vivo.com.cn,DIRECT
+ - DOMAIN,picanalysis-auth.vivo.com.cn,DIRECT
  - DOMAIN,fairplay.l.qq.com,DIRECT
  - DOMAIN,livew.l.qq.com,DIRECT
  - DOMAIN,vd.l.qq.com,DIRECT
+ - DOMAIN,analytics.strava.com,DIRECT
  - DOMAIN,errlog.umeng.com,DIRECT
  - DOMAIN,msg.umeng.com,DIRECT
  - DOMAIN,msg.umengcloud.com,DIRECT
@@ -263,6 +150,43 @@ rules:
  - DOMAIN,app.adjust.com,DIRECT
  - DOMAIN,bdtj.tagtic.cn,DIRECT
  - DOMAIN,rewards.hypixel.net,DIRECT
+ - DOMAIN-SUFFIX,265.com,DIRECT
+ - DOMAIN-SUFFIX,2mdn.net,DIRECT
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,app-measurement.com,DIRECT
+ - DOMAIN-SUFFIX,c.android.clients.google.com,DIRECT
+ - DOMAIN-SUFFIX,cache.pack.google.com,DIRECT
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,DIRECT
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,DIRECT
+ - DOMAIN-SUFFIX,crl.pki.goog,DIRECT
+ - DOMAIN-SUFFIX,dl.google.com,DIRECT
+ - DOMAIN-SUFFIX,dl.l.google.com,DIRECT
+ - DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
+ - DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
+ - DOMAIN-SUFFIX,googletagmanager.com,DIRECT
+ - DOMAIN-SUFFIX,googletagservices.com,DIRECT
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,DIRECT
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,DIRECT
+ - DOMAIN-SUFFIX,mtalk.google.com,DIRECT
+ - DOMAIN-SUFFIX,ocsp.pki.goog,DIRECT
+ - DOMAIN-SUFFIX,recaptcha.net,DIRECT
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,DIRECT
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
+ - DOMAIN-SUFFIX,settings.crashlytics.com,DIRECT
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,DIRECT
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,DIRECT
+ - DOMAIN-SUFFIX,tools.google.com,DIRECT
+ - DOMAIN-SUFFIX,tools.l.google.com,DIRECT
+ - DOMAIN-SUFFIX,update.googleapis.com,DIRECT
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,DIRECT
+ - DOMAIN-SUFFIX,www.gstatic.com,DIRECT
  - DOMAIN-SUFFIX,13th.tech,DIRECT
  - DOMAIN-SUFFIX,423down.com,DIRECT
  - DOMAIN-SUFFIX,bokecc.com,DIRECT
@@ -282,6 +206,7 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,DIRECT
  - DOMAIN-SUFFIX,xn--55qx5d,DIRECT
  - DOMAIN-SUFFIX,xn--io0a7i,DIRECT
+ - DOMAIN-KEYWORD,-cn,DIRECT
  - DOMAIN-KEYWORD,360buy,DIRECT
  - DOMAIN-KEYWORD,alicdn,DIRECT
  - DOMAIN-KEYWORD,alimama,DIRECT
@@ -439,7 +364,6 @@ rules:
  - DOMAIN-SUFFIX,dbankcdn.com,DIRECT
  - DOMAIN-SUFFIX,hc-cdn.com,DIRECT
  - DOMAIN-SUFFIX,hicloud.com,DIRECT
- - DOMAIN-SUFFIX,hihonor.com,DIRECT
  - DOMAIN-SUFFIX,huawei.com,DIRECT
  - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
  - DOMAIN-SUFFIX,huaweishop.net,DIRECT
@@ -632,10 +556,10 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,DIRECT
  - DOMAIN-SUFFIX,springsunday.net,DIRECT
  - DOMAIN-SUFFIX,tjupt.org,DIRECT
- - DOMAIN-SUFFIX,tju.pt,DIRECT
  - DOMAIN-SUFFIX,totheglory.im,DIRECT
  - DOMAIN-SUFFIX,trontv.com,DIRECT
  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
+ - IP-CIDR,109.239.140.0/24,DIRECT,no-resolve
  - IP-CIDR,139.220.243.27/32,DIRECT,no-resolve
  - IP-CIDR,172.16.102.56/32,DIRECT,no-resolve
  - IP-CIDR,185.188.32.1/28,DIRECT,no-resolve
@@ -791,9 +715,7 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,DIRECT
  - DOMAIN-SUFFIX,nuomi.com,DIRECT
  - DOMAIN-SUFFIX,onedns.net,DIRECT
- - DOMAIN-SUFFIX,oneplus.com,DIRECT
  - DOMAIN-SUFFIX,onlinedown.net,DIRECT
- - DOMAIN-SUFFIX,oppo.com,DIRECT
  - DOMAIN-SUFFIX,oracle.com,DIRECT
  - DOMAIN-SUFFIX,oschina.net,DIRECT
  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
@@ -815,7 +737,6 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,DIRECT
  - DOMAIN-SUFFIX,qunar.com,DIRECT
  - DOMAIN-SUFFIX,qunarzz.com,DIRECT
- - DOMAIN-SUFFIX,realme.com,DIRECT
  - DOMAIN-SUFFIX,repaik.com,DIRECT
  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
  - DOMAIN-SUFFIX,runoob.com,DIRECT
@@ -849,7 +770,6 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,DIRECT
  - DOMAIN-SUFFIX,uxengine.net,DIRECT
  - DOMAIN-SUFFIX,videocc.net,DIRECT
- - DOMAIN-SUFFIX,vivo.com,DIRECT
  - DOMAIN-SUFFIX,wandoujia.com,DIRECT
  - DOMAIN-SUFFIX,weather.com,DIRECT
  - DOMAIN-SUFFIX,weico.cc,DIRECT
@@ -935,6 +855,7 @@ rules:
  - DOMAIN-KEYWORD,adsserving,REJECT
  - DOMAIN-KEYWORD,adsystem,REJECT
  - DOMAIN-KEYWORD,adwords,REJECT
+ - DOMAIN-KEYWORD,analysis,REJECT
  - DOMAIN-KEYWORD,applovin,REJECT
  - DOMAIN-KEYWORD,appsflyer,REJECT
  - DOMAIN-KEYWORD,domob,REJECT
@@ -948,6 +869,7 @@ rules:
  - DOMAIN-KEYWORD,pingfore,REJECT
  - DOMAIN-KEYWORD,socdm,REJECT
  - DOMAIN-KEYWORD,supersonicads,REJECT
+ - DOMAIN-KEYWORD,usage,REJECT
  - DOMAIN-KEYWORD,wlmonitor,REJECT
  - DOMAIN-KEYWORD,zjtoolbar,REJECT
  - DOMAIN-SUFFIX,09mk.cn,REJECT
@@ -1681,6 +1603,7 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,REJECT
  - DOMAIN-SUFFIX,baidustatic.com,REJECT
  - DOMAIN-SUFFIX,baidutv.baidu.com,REJECT
+ - DOMAIN-SUFFIX,baikebcs.bdimg.com,REJECT
  - DOMAIN-SUFFIX,banlv.baidu.com,REJECT
  - DOMAIN-SUFFIX,bar.baidu.com,REJECT
  - DOMAIN-SUFFIX,bdplus.baidu.com,REJECT
@@ -2038,6 +1961,7 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,union.mi.com,REJECT
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,REJECT
+ - DOMAIN-SUFFIX,xmpush.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,ad.api.moji.com,REJECT
  - DOMAIN-SUFFIX,app.moji001.com,REJECT
  - DOMAIN-SUFFIX,cdn.moji002.com,REJECT
@@ -2232,6 +2156,7 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,REJECT
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,REJECT
  - DOMAIN-SUFFIX,ybp.yahoo.com,REJECT
+ - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
  - DOMAIN-SUFFIX,shrek.6.cn,REJECT
  - DOMAIN-SUFFIX,simba.6.cn,REJECT
  - DOMAIN-SUFFIX,union.6.cn,REJECT
