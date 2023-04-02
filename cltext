@@ -5,14 +5,294 @@ redir-port: 7892
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090bb
+external-controller: :9090
+proxies:
+  - {name: TR | 土耳其全流媒体〔NF仅土奈 | D+ | Amazon | Spotify | ATV〕, server: tu1.worldwide.my.id, port: 45890, type: trojan, password: df3ce737-09ae-4c2a-98fe-73840561ab67, sni: tu1.worldwide.my.id, skip-cert-verify: true, udp: true}
+  - {name: TW优刻云, server: 43.255.214.45, port: 55003, type: ss, cipher: chacha20-ietf-poly1305, password: yYIukPTr50XpavMx, udp: true}
+  - {name: _CN_中国, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|韩国01解锁, server: ppy-boardv1.aliyun-o2bs.xyz, port: 26072, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|韩国02解锁, server: ppy-boardv1.aliyun-o2bs.xyz, port: 26073, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|韩国03解锁, server: ppy-boardv1.aliyun-o2bs.xyz, port: 26074, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|韩国04解锁, server: ppy-boardv1.aliyun-o2bs.xyz, port: 26075, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国01解锁, server: ppy-usv1.aliyun-o2bs.xyz, port: 26001, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国02解锁, server: ppy-usv1.aliyun-o2bs.xyz, port: 26002, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国03解锁, server: ppy-usv1.aliyun-o2bs.xyz, port: 26003, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|美国04解锁, server: ppy-usv1.aliyun-o2bs.xyz, port: 26004, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本01解锁, server: ppy-jpv1.aliyun-o2bs.xyz, port: 26006, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本02解锁, server: ppy-jpv1.aliyun-o2bs.xyz, port: 26007, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本03解锁, server: ppy-jpv1.aliyun-o2bs.xyz, port: 26008, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本04解锁, server: ppy-jpv1.aliyun-o2bs.xyz, port: 26009, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港02解锁, server: ppy-hkv1.aliyun-o2bs.xyz, port: 26011, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港03解锁, server: ppy-hkv1.aliyun-o2bs.xyz, port: 26012, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港04解锁, server: ppy-hkv1.aliyun-o2bs.xyz, port: 26013, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|香港06解锁, server: ppy-hkv1.aliyun-o2bs.xyz, port: 26015, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡03解锁, server: ppy-sgv1.aliyun-o2bs.xyz, port: 26022, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡04解锁, server: ppy-sgv1.aliyun-o2bs.xyz, port: 26023, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 东京 1, server: 00000000000000000000000003.node-for-smallairport.win, port: 3389, type: vmess, uuid: 132da563-3590-4203-9d93-cb3b52a4b51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 东京 2, server: 00000000000000000000000004.node-for-smallairport.win, port: 1521, type: vmess, uuid: 132da563-3590-4203-9d93-cb3b52a4b51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国-1.59MB/s(Youtube:不良林), server: 156.249.18.135, port: 54086, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国首尔B, server: 27.124.8.239, port: 443, type: vmess, uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.83952020.xyz}}, udp: true}
+  - {name: 黑洞, server: 141.95.33.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/350203162929, headers: {Host: www.26745512.xyz}}, udp: true}
+  - {name: 美国 | US.B San Jose〔中转-全解流媒体〕, server: us-b.worldwide.my.id, port: 60982, type: trojan, password: df3ce737-09ae-4c2a-98fe-73840561ab67, sni: us-b.worldwide.my.id, skip-cert-verify: true, udp: true}
+  - {name: 美国-1.89MB/s(Youtube:不良林), server: cf.163453.xyz, port: 8880, type: vmess, uuid: 502d3ed3-278d-6ba8-a698-89fbf8fdce67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk01.163453.xyz}}, udp: true}
+  - {name: 美国-6.57MB/s(Youtube:不良林), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 墨西哥 | Soptiy〔测试线〕, server: mx.worldwide.my.id, port: 60960, type: trojan, password: df3ce737-09ae-4c2a-98fe-73840561ab67, sni: mx.worldwide.my.id, skip-cert-verify: true, udp: true}
+  - {name: 日本 VIP-1线 〔新线〕, server: jp1n.asasone.cyou, port: 59801, type: vmess, uuid: df3ce737-09ae-4c2a-98fe-73840561ab67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 台湾 ┇VIP专线 〔原生IP〕, server: taiwzzz.zoozone.win, port: 29801, type: vmess, uuid: df3ce737-09ae-4c2a-98fe-73840561ab67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 未知国家-1.15MB/s(Youtube:不良林), server: eu6.739256.xyz, port: 443, type: vmess, uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu6.739256.xyz}}, udp: true}
+  - {name: 香港 2, server: 00000000000000000000000002.node-for-smallairport.win, port: 1521, type: vmess, uuid: 132da563-3590-4203-9d93-cb3b52a4b51b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-2.68MB/s(Youtube:不良林), server: sg4.microsoftjs.top, port: 443, type: vmess, uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: sg4.microsoftjs.top}}, udp: true}
+  - {name: 移动专线A, server: 120.240.163.51, port: 53173, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度-1.37MB/s(Youtube:不良林), server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 中国-1.09MB/s(Youtube:不良林), server: 120.232.179.161, port: 63072, type: vmess, uuid: e8fab7d8-364b-3c49-89b5-c0c9bac84327, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ag01-cdn.myn1des.com}}, udp: true}
+  - {name: 中国-2.93MB/s(Youtube:不良林), server: rk1.mrlizhuanfa.com, port: 12454, type: vmess, uuid: e79b30ee-1426-380f-b9b4-30a12535ef5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-3.26MB/s(Youtube:不良林), server: rk1.mrlizhuanfa.com, port: 12383, type: vmess, uuid: e79b30ee-1426-380f-b9b4-30a12535ef5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|阿根廷01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26122, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|埃及01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26130, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|奥地利01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26128, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|澳大利亚01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26110, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|巴基斯坦01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26135, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|巴林01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26138, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|巴西01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26134, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|保加利亚01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26094, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|波兰01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26096, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|德国01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26112, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|俄罗斯01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26090, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|芬兰01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26136, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|哥伦比亚01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26124, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|韩国01解锁, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26072, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|韩国02解锁, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26073, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|韩国03解锁, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26074, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|韩国04解锁, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26075, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|荷兰01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26098, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|加拿大01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26114, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|捷克01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26100, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|拉脱维亚01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26102, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|马来西亚01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26137, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|马斯喀特01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26133, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|美国01解锁, server: ppy-usv2.aliyun-o2bs.xyz, port: 26001, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|美国02解锁, server: ppy-usv2.aliyun-o2bs.xyz, port: 26002, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|美国03解锁, server: ppy-usv2.aliyun-o2bs.xyz, port: 26003, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|美国04解锁, server: ppy-usv2.aliyun-o2bs.xyz, port: 26004, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|南非01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26086, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|日本01解锁, server: ppy-jpv2.aliyun-o2bs.xyz, port: 26006, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|日本02解锁, server: ppy-jpv2.aliyun-o2bs.xyz, port: 26007, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|日本03解锁, server: ppy-jpv2.aliyun-o2bs.xyz, port: 26008, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|瑞士01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26104, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|土耳其01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26092, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|乌克兰01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26106, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|西班牙01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26126, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港01解锁, server: ppy-hkv2.aliyun-o2bs.xyz, port: 26010, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港02解锁, server: ppy-hkv2.aliyun-o2bs.xyz, port: 26011, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港04解锁, server: ppy-hkv2.aliyun-o2bs.xyz, port: 26013, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港05解锁, server: ppy-hkv2.aliyun-o2bs.xyz, port: 26014, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|香港06解锁, server: ppy-hkv2.aliyun-o2bs.xyz, port: 26015, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|印度01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26132, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|英国01x5, server: ppy-boardv2.aliyun-o2bs.xyz, port: 26116, type: vmess, uuid: e3539c1c-e32d-305e-96b2-3c184b644a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - TR | 土耳其全流媒体〔NF仅土奈 | D+ | Amazon | Spotify | ATV〕
+      - TW优刻云
+      - _CN_中国
+      - 标准|韩国01解锁
+      - 标准|韩国02解锁
+      - 标准|韩国03解锁
+      - 标准|韩国04解锁
+      - 标准|美国01解锁
+      - 标准|美国02解锁
+      - 标准|美国03解锁
+      - 标准|美国04解锁
+      - 标准|日本01解锁
+      - 标准|日本02解锁
+      - 标准|日本03解锁
+      - 标准|日本04解锁
+      - 标准|香港02解锁
+      - 标准|香港03解锁
+      - 标准|香港04解锁
+      - 标准|香港06解锁
+      - 标准|新加坡03解锁
+      - 标准|新加坡04解锁
+      - 东京 1
+      - 东京 2
+      - 法国-1.59MB/s(Youtube:不良林)
+      - 韩国首尔B
+      - 黑洞
+      - 美国 | US.B San Jose〔中转-全解流媒体〕
+      - 美国-1.89MB/s(Youtube:不良林)
+      - 美国-6.57MB/s(Youtube:不良林)
+      - 墨西哥 | Soptiy〔测试线〕
+      - 日本 VIP-1线 〔新线〕
+      - 台湾 ┇VIP专线 〔原生IP〕
+      - 未知国家-1.15MB/s(Youtube:不良林)
+      - 香港 2
+      - 新加坡-2.68MB/s(Youtube:不良林)
+      - 移动专线A
+      - 印度-1.37MB/s(Youtube:不良林)
+      - 中国-1.09MB/s(Youtube:不良林)
+      - 中国-2.93MB/s(Youtube:不良林)
+      - 中国-3.26MB/s(Youtube:不良林)
+      - 专线|阿根廷01x5
+      - 专线|埃及01x5
+      - 专线|奥地利01x5
+      - 专线|澳大利亚01x5
+      - 专线|巴基斯坦01x5
+      - 专线|巴林01x5
+      - 专线|巴西01x5
+      - 专线|保加利亚01x5
+      - 专线|波兰01x5
+      - 专线|德国01x5
+      - 专线|俄罗斯01x5
+      - 专线|芬兰01x5
+      - 专线|哥伦比亚01x5
+      - 专线|韩国01解锁
+      - 专线|韩国02解锁
+      - 专线|韩国03解锁
+      - 专线|韩国04解锁
+      - 专线|荷兰01x5
+      - 专线|加拿大01x5
+      - 专线|捷克01x5
+      - 专线|拉脱维亚01x5
+      - 专线|马来西亚01x5
+      - 专线|马斯喀特01x5
+      - 专线|美国01解锁
+      - 专线|美国02解锁
+      - 专线|美国03解锁
+      - 专线|美国04解锁
+      - 专线|南非01x5
+      - 专线|日本01解锁
+      - 专线|日本02解锁
+      - 专线|日本03解锁
+      - 专线|瑞士01x5
+      - 专线|土耳其01x5
+      - 专线|乌克兰01x5
+      - 专线|西班牙01x5
+      - 专线|香港01解锁
+      - 专线|香港02解锁
+      - 专线|香港04解锁
+      - 专线|香港05解锁
+      - 专线|香港06解锁
+      - 专线|印度01x5
+      - 专线|英国01x5
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - TR | 土耳其全流媒体〔NF仅土奈 | D+ | Amazon | Spotify | ATV〕
+      - TW优刻云
+      - _CN_中国
+      - 标准|韩国01解锁
+      - 标准|韩国02解锁
+      - 标准|韩国03解锁
+      - 标准|韩国04解锁
+      - 标准|美国01解锁
+      - 标准|美国02解锁
+      - 标准|美国03解锁
+      - 标准|美国04解锁
+      - 标准|日本01解锁
+      - 标准|日本02解锁
+      - 标准|日本03解锁
+      - 标准|日本04解锁
+      - 标准|香港02解锁
+      - 标准|香港03解锁
+      - 标准|香港04解锁
+      - 标准|香港06解锁
+      - 标准|新加坡03解锁
+      - 标准|新加坡04解锁
+      - 东京 1
+      - 东京 2
+      - 法国-1.59MB/s(Youtube:不良林)
+      - 韩国首尔B
+      - 黑洞
+      - 美国 | US.B San Jose〔中转-全解流媒体〕
+      - 美国-1.89MB/s(Youtube:不良林)
+      - 美国-6.57MB/s(Youtube:不良林)
+      - 墨西哥 | Soptiy〔测试线〕
+      - 日本 VIP-1线 〔新线〕
+      - 台湾 ┇VIP专线 〔原生IP〕
+      - 未知国家-1.15MB/s(Youtube:不良林)
+      - 香港 2
+      - 新加坡-2.68MB/s(Youtube:不良林)
+      - 移动专线A
+      - 印度-1.37MB/s(Youtube:不良林)
+      - 中国-1.09MB/s(Youtube:不良林)
+      - 中国-2.93MB/s(Youtube:不良林)
+      - 中国-3.26MB/s(Youtube:不良林)
+      - 专线|阿根廷01x5
+      - 专线|埃及01x5
+      - 专线|奥地利01x5
+      - 专线|澳大利亚01x5
+      - 专线|巴基斯坦01x5
+      - 专线|巴林01x5
+      - 专线|巴西01x5
+      - 专线|保加利亚01x5
+      - 专线|波兰01x5
+      - 专线|德国01x5
+      - 专线|俄罗斯01x5
+      - 专线|芬兰01x5
+      - 专线|哥伦比亚01x5
+      - 专线|韩国01解锁
+      - 专线|韩国02解锁
+      - 专线|韩国03解锁
+      - 专线|韩国04解锁
+      - 专线|荷兰01x5
+      - 专线|加拿大01x5
+      - 专线|捷克01x5
+      - 专线|拉脱维亚01x5
+      - 专线|马来西亚01x5
+      - 专线|马斯喀特01x5
+      - 专线|美国01解锁
+      - 专线|美国02解锁
+      - 专线|美国03解锁
+      - 专线|美国04解锁
+      - 专线|南非01x5
+      - 专线|日本01解锁
+      - 专线|日本02解锁
+      - 专线|日本03解锁
+      - 专线|瑞士01x5
+      - 专线|土耳其01x5
+      - 专线|乌克兰01x5
+      - 专线|西班牙01x5
+      - 专线|香港01解锁
+      - 专线|香港02解锁
+      - 专线|香港04解锁
+      - 专线|香港05解锁
+      - 专线|香港06解锁
+      - 专线|印度01x5
+      - 专线|英国01x5
 rules:
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
+ - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
+ - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
  - DOMAIN-SUFFIX,lan,DIRECT
  - DOMAIN-SUFFIX,local,DIRECT
  - DOMAIN-SUFFIX,localhost,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
@@ -27,6 +307,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,setmeup.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
  - DOMAIN-SUFFIX,hiwifi.com,DIRECT
  - DOMAIN-SUFFIX,leike.cc,DIRECT
  - DOMAIN-SUFFIX,miwifi.com,DIRECT
@@ -39,19 +320,16 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
  - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
  - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
  - DOMAIN-SUFFIX,dizhensubao.getui.com,DIRECT
  - DOMAIN,dl.google.com,DIRECT
  - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,DIRECT
  - DOMAIN,origin-a.akamaihd.net,DIRECT
- - DOMAIN,xivanalysis.com,DIRECT
- - DOMAIN,picanalysis.vivo.com.cn,DIRECT
- - DOMAIN,picanalysis-auth.vivo.com.cn,DIRECT
  - DOMAIN,fairplay.l.qq.com,DIRECT
  - DOMAIN,livew.l.qq.com,DIRECT
  - DOMAIN,vd.l.qq.com,DIRECT
- - DOMAIN,analytics.strava.com,DIRECT
  - DOMAIN,errlog.umeng.com,DIRECT
  - DOMAIN,msg.umeng.com,DIRECT
  - DOMAIN,msg.umengcloud.com,DIRECT
@@ -59,43 +337,6 @@ rules:
  - DOMAIN,app.adjust.com,DIRECT
  - DOMAIN,bdtj.tagtic.cn,DIRECT
  - DOMAIN,rewards.hypixel.net,DIRECT
- - DOMAIN-SUFFIX,265.com,DIRECT
- - DOMAIN-SUFFIX,2mdn.net,DIRECT
- - DOMAIN-SUFFIX,alt1-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt2-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt3-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt4-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt5-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt6-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt7-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt8-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,app-measurement.com,DIRECT
- - DOMAIN-SUFFIX,c.android.clients.google.com,DIRECT
- - DOMAIN-SUFFIX,cache.pack.google.com,DIRECT
- - DOMAIN-SUFFIX,clickserve.dartsearch.net,DIRECT
- - DOMAIN-SUFFIX,clientservices.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,crl.pki.goog,DIRECT
- - DOMAIN-SUFFIX,dl.google.com,DIRECT
- - DOMAIN-SUFFIX,dl.l.google.com,DIRECT
- - DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,googletagmanager.com,DIRECT
- - DOMAIN-SUFFIX,googletagservices.com,DIRECT
- - DOMAIN-SUFFIX,gtm.oasisfeng.com,DIRECT
- - DOMAIN-SUFFIX,imasdk.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,ocsp.pki.goog,DIRECT
- - DOMAIN-SUFFIX,recaptcha.net,DIRECT
- - DOMAIN-SUFFIX,safebrowsing-cache.google.com,DIRECT
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,settings.crashlytics.com,DIRECT
- - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,DIRECT
- - DOMAIN-SUFFIX,toolbarqueries.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.l.google.com,DIRECT
- - DOMAIN-SUFFIX,update.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,DIRECT
- - DOMAIN-SUFFIX,www.gstatic.com,DIRECT
  - DOMAIN-SUFFIX,13th.tech,DIRECT
  - DOMAIN-SUFFIX,423down.com,DIRECT
  - DOMAIN-SUFFIX,bokecc.com,DIRECT
@@ -115,7 +356,6 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,DIRECT
  - DOMAIN-SUFFIX,xn--55qx5d,DIRECT
  - DOMAIN-SUFFIX,xn--io0a7i,DIRECT
- - DOMAIN-KEYWORD,-cn,DIRECT
  - DOMAIN-KEYWORD,360buy,DIRECT
  - DOMAIN-KEYWORD,alicdn,DIRECT
  - DOMAIN-KEYWORD,alimama,DIRECT
@@ -273,6 +513,7 @@ rules:
  - DOMAIN-SUFFIX,dbankcdn.com,DIRECT
  - DOMAIN-SUFFIX,hc-cdn.com,DIRECT
  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+ - DOMAIN-SUFFIX,hihonor.com,DIRECT
  - DOMAIN-SUFFIX,huawei.com,DIRECT
  - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
  - DOMAIN-SUFFIX,huaweishop.net,DIRECT
@@ -465,10 +706,10 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,DIRECT
  - DOMAIN-SUFFIX,springsunday.net,DIRECT
  - DOMAIN-SUFFIX,tjupt.org,DIRECT
+ - DOMAIN-SUFFIX,tju.pt,DIRECT
  - DOMAIN-SUFFIX,totheglory.im,DIRECT
  - DOMAIN-SUFFIX,trontv.com,DIRECT
  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
- - IP-CIDR,109.239.140.0/24,DIRECT,no-resolve
  - IP-CIDR,139.220.243.27/32,DIRECT,no-resolve
  - IP-CIDR,172.16.102.56/32,DIRECT,no-resolve
  - IP-CIDR,185.188.32.1/28,DIRECT,no-resolve
@@ -624,7 +865,9 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,DIRECT
  - DOMAIN-SUFFIX,nuomi.com,DIRECT
  - DOMAIN-SUFFIX,onedns.net,DIRECT
+ - DOMAIN-SUFFIX,oneplus.com,DIRECT
  - DOMAIN-SUFFIX,onlinedown.net,DIRECT
+ - DOMAIN-SUFFIX,oppo.com,DIRECT
  - DOMAIN-SUFFIX,oracle.com,DIRECT
  - DOMAIN-SUFFIX,oschina.net,DIRECT
  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
@@ -646,6 +889,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,DIRECT
  - DOMAIN-SUFFIX,qunar.com,DIRECT
  - DOMAIN-SUFFIX,qunarzz.com,DIRECT
+ - DOMAIN-SUFFIX,realme.com,DIRECT
  - DOMAIN-SUFFIX,repaik.com,DIRECT
  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
  - DOMAIN-SUFFIX,runoob.com,DIRECT
@@ -679,6 +923,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,DIRECT
  - DOMAIN-SUFFIX,uxengine.net,DIRECT
  - DOMAIN-SUFFIX,videocc.net,DIRECT
+ - DOMAIN-SUFFIX,vivo.com,DIRECT
  - DOMAIN-SUFFIX,wandoujia.com,DIRECT
  - DOMAIN-SUFFIX,weather.com,DIRECT
  - DOMAIN-SUFFIX,weico.cc,DIRECT
@@ -764,7 +1009,6 @@ rules:
  - DOMAIN-KEYWORD,adsserving,REJECT
  - DOMAIN-KEYWORD,adsystem,REJECT
  - DOMAIN-KEYWORD,adwords,REJECT
- - DOMAIN-KEYWORD,analysis,REJECT
  - DOMAIN-KEYWORD,applovin,REJECT
  - DOMAIN-KEYWORD,appsflyer,REJECT
  - DOMAIN-KEYWORD,domob,REJECT
@@ -778,7 +1022,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,REJECT
  - DOMAIN-KEYWORD,socdm,REJECT
  - DOMAIN-KEYWORD,supersonicads,REJECT
- - DOMAIN-KEYWORD,usage,REJECT
  - DOMAIN-KEYWORD,wlmonitor,REJECT
  - DOMAIN-KEYWORD,zjtoolbar,REJECT
  - DOMAIN-SUFFIX,09mk.cn,REJECT
@@ -1512,7 +1755,6 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,REJECT
  - DOMAIN-SUFFIX,baidustatic.com,REJECT
  - DOMAIN-SUFFIX,baidutv.baidu.com,REJECT
- - DOMAIN-SUFFIX,baikebcs.bdimg.com,REJECT
  - DOMAIN-SUFFIX,banlv.baidu.com,REJECT
  - DOMAIN-SUFFIX,bar.baidu.com,REJECT
  - DOMAIN-SUFFIX,bdplus.baidu.com,REJECT
@@ -1870,7 +2112,6 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,union.mi.com,REJECT
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,REJECT
- - DOMAIN-SUFFIX,xmpush.xiaomi.com,REJECT
  - DOMAIN-SUFFIX,ad.api.moji.com,REJECT
  - DOMAIN-SUFFIX,app.moji001.com,REJECT
  - DOMAIN-SUFFIX,cdn.moji002.com,REJECT
@@ -2065,7 +2306,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,REJECT
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,REJECT
  - DOMAIN-SUFFIX,ybp.yahoo.com,REJECT
- - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
  - DOMAIN-SUFFIX,shrek.6.cn,REJECT
  - DOMAIN-SUFFIX,simba.6.cn,REJECT
  - DOMAIN-SUFFIX,union.6.cn,REJECT
