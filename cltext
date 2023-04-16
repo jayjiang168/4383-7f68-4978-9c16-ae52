@@ -1,4 +1,28 @@
-
+port: 7890
+socks-port: 7891
+Mixed-Port: 7788
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - { name: "IPV4", type: wireguard, server: 188.114.97.50, port: 880, ip: 10.114.3.181/32,2409:8930:5012:120f:38d2:e9ff:fed3:8360, private-key: aAFgeIWVbSMEtZf0aLgkjcdJv1g6CL0E+KfsxeJvVWc=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1]}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - IPV4
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - IPV4
+rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
  - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
