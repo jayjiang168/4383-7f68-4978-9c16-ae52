@@ -32,9 +32,6 @@ proxies:
   - {name: 香港I - 原生 Light, server: 2212.level1.sdl-sz.com, port: 1703, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
   - {name: 香港II - 标准 Light, server: 2212.level1.sdl-sz.com, port: 1700, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
   - {name: 香港III - 标准 Light, server: 2212.level1.sdl-sz.com, port: 1705, type: ssr, cipher: aes-256-cfb, password: 3ke1YNBPgvh3, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11108:QTr9Mbkt1F, obfs-param: 9261811108.microsoft.com, udp: true}
-  - {name: WARP, type: wireguard, server: 162.159.195.220 ,port: 1070,ip: 172.16.0.8, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: kD2eb+nK3zHK6Si8pp3tEo6r8XtWVmvzB8s2UVCwj20=,mtu: 1280,udp: true}
-  - {name: WARP0, type: wireguard, server: 169.150.196.96 ,port: 51820,ip: 10.2.0.192, public-key:  /nzl9zyzlLm97wJsBv7BpFS5gWxzYCYpcm9WWm1ohUw=,private-key:  0Jve5fxG9WnlNN9qY94sLGKTLD8G1xdh9gPv+VRFuFI=,mtu: 1280,udp: true}
-  - {name: WARP1, type: wireguard, server:  37.19.221.193 ,port: 51820,ip: 10.2.0.213, public-key: WIeBbAgtnBInKKxUYyc9B+R1aqPlJSV5e6mq+xGgymc=,private-key:  +JtT79Tc8OjPyVTRBdwHPwnhjOi1KN9eE125D2sj30Y=,mtu: 1280,udp: true}
   - {name: ⓪美国迈阿密, server: los3.aaaa.gay, port: 26520, type: trojan, password: 24822a1f-d142-3d26-9cff-d6095701255c, sni: los3.aaaa.gay, skip-cert-verify: true, udp: true}
   - {name: ⓪美国迈阿密中转, server: aaaa.aaaa.gay, port: 50019, type: trojan, password: 24822a1f-d142-3d26-9cff-d6095701255c, sni: los3.aaaa.gay, skip-cert-verify: true, udp: true}
   - {name: ⓪美国纽约中转, server: aaaa.aaaa.gay, port: 50021, type: trojan, password: 24822a1f-d142-3d26-9cff-d6095701255c, sni: los4.aaaa.gay, skip-cert-verify: true, udp: true}
@@ -102,9 +99,6 @@ proxy-groups:
       - 香港I - 原生 Light
       - 香港II - 标准 Light
       - 香港III - 标准 Light
-      - WARP
-      - WARP0
-      - WARP1
       - ⓪美国迈阿密
       - ⓪美国迈阿密中转
       - ⓪美国纽约中转
@@ -172,9 +166,6 @@ proxy-groups:
       - 香港I - 原生 Light
       - 香港II - 标准 Light
       - 香港III - 标准 Light
-      - WARP
-      - WARP0
-      - WARP1
       - ⓪美国迈阿密
       - ⓪美国迈阿密中转
       - ⓪美国纽约中转
